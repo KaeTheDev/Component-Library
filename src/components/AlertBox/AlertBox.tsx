@@ -1,4 +1,3 @@
-// components/AlertBox/AlertBox.tsx
 import React from 'react';
 import type { AlertBoxProps } from '../../types';
  
