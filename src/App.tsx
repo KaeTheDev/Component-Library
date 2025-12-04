@@ -61,7 +61,7 @@ import { useState } from "react";
 const App = () => {
   const [showAlert, setShowAlert] = useState(false);
   const [cartItems, setCartItems] = useState<string[]>([]);
- 
+
   const handleAddToCart = (productId: string) => {
     setCartItems([...cartItems, productId]);
     setShowAlert(true);
@@ -100,6 +100,7 @@ const App = () => {
           user={user}
           showEmail={true}
           showRole={true}
+          onEdit={(userId) => alert(`Editing user ${userId}`)}
         />
  
         <ProductDisplay
