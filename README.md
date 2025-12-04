@@ -4,8 +4,6 @@
 
 In this lab, I built a small, reusable UI component library using React + TypeScript. I practiced creating strongly-typed components, handling props correctly, composing components together, and documenting my work. 
 
-----------
-
  
 ## Learning Objectives
 
@@ -83,7 +81,6 @@ This lab can be run on **Windows**, **macOS**, or **Linux**.
 
 ----------
 
-
 ## Installation
 
 1. Clone this repository:
@@ -110,7 +107,6 @@ npm run dev
     ├── Button.tsx
     ├── Card.tsx
     ├── AlertBox.tsx
-    └── Product.tsx
   /types
     └── index.ts
 README.md
