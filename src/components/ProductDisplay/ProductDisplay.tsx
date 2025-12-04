@@ -10,7 +10,7 @@ export const ProductDisplay: React.FC<ProductDisplayProps> = ({
 }) => {
   return (
     <>
-      <div className="flex mt-4">
+      <div className="flex flex-col mt-4">
         <img src={product.imageUrl} alt={product.name} className="w-32 h-32" />
         <div>
           <p>{product.name}</p>
