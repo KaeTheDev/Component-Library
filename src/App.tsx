@@ -3,6 +3,11 @@ import { UserProfileCard } from "./components/UserProfileCard/UserProfileCard";
 import { ProductDisplay } from "./components/ProductDisplay/ProductDisplay";
 import { useState } from "react";
 
+
+// I know commented out code is bad but this was me practicing different components
+// Wasn't 100% sure how to test the components per the lab.
+
+
 // function App() {
 //   const user = {
 //     id: "1",
