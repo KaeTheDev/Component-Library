@@ -44,7 +44,6 @@ function App() {
         showStockStatus={true}
         onAddToCart={(productId) => alert(`Added product ${productId}: ${product.name} to cart`)}
       >
-        <div className="text-sm text-gray-500">Free shipping available</div>
       </ProductDisplay>
     </>
   );
